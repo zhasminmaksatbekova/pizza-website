@@ -1,0 +1,31 @@
+@import "../global";
+.footer{
+    &__title{
+        @include font($black, $font-fam, 1.66667vw, 600);
+        margin-bottom: 30px;
+    }
+    &__subtitle{
+        @include font($red, $font-fam, 1.25vw, 600);
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    &__description{
+        @include font($grey, $font-fam, 1.11111vw, 400);
+        max-width: 80%;
+        margin-bottom: 19px;
+    }
+    &__map{
+        height: 350px;
+        border-radius: 1px;
+        position: absolute;
+        max-width: 100%;
+    }
+    &__zone{
+        position: relative;
+        @include font($black, $font-fam, 1.25vw, 600);
+        @include center;
+        top: 100%;
+        z-index: 1;
+        right: 40px;
+    }
+}
