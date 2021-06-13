@@ -1,0 +1,19 @@
+@import "../global";
+
+.hero{
+    &__row{
+        margin: -0.6vw;
+    }
+    &__col{
+        padding: 0.6vw;
+        box-sizing: border-box;
+    }
+    &__img
+    {
+        transition: 0.5s;
+        &:hover{
+            cursor: pointer;
+            opacity: 0.7;
+        }
+    }
+}

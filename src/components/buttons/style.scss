@@ -1,0 +1,11 @@
+@import "../global";
+
+.button{
+    @include font(#FFFFFF, $font-fam,1.11111vw,700);
+    background-color: $redlight;
+    border: .06944vw solid $redlight;
+    border-radius: 2.08333vw;
+    padding: .69444vw 1.25vw;
+    text-align: center;
+}
+
